@@ -1,0 +1,6 @@
+---
+- name: Ping your Serves
+  hosts: vm
+  tasks:
+    - name: Hello
+      ansible.builtin.ping:
