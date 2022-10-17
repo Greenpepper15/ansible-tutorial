@@ -5,7 +5,11 @@ Ansible-tutorial
 
 `ansible-playbook -i hosts.yml ping.yml`
 
---> Was ist los?
+--> Was ist los? 
+
+Für mehr Information:
+
+`ansible-playbook -i hosts.yml -vvv ping.yml`
 
 ## Hürde - Wie fange ich an?
 
