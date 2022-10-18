@@ -36,9 +36,14 @@ Den ganzen Pfad?? Der wird sich doch ändern :(
 --> Rolle erstellen
 
 `cd roles`
+
 `ansible-galaxy init copy-files`
 
 
 Option um superuser password auf der Kommandozeile zu verwenden.
 `--ask-become-pass`
+
+## Jinja2 Example 
+
+What is {{ hallo }}? 
 
