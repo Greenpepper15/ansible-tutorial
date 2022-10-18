@@ -2,4 +2,4 @@
 - name: Copy a file
   hosts: vm
   roles:
-    - XXXX
+    - coppy-files

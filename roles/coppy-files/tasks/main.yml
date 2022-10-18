@@ -1,0 +1,8 @@
+---
+# tasks file for coppy-files
+- name: Copy file with owner and permission, using symbolic representation
+  ansible.builtin.template:
+    src: hallo.jinja2
+    dest: etc/hallo.template
+    owner: dmohre2s
+    mode: u=rw,g=r,o=r

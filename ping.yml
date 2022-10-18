@@ -3,4 +3,5 @@
   hosts: vm
   tasks:
     - name: Hello
-      ansible.builtin.ping:
+      ansible.builtin.debug: 
+        msg: "{{ ansible_facts['user_id'] }}"
