@@ -22,7 +22,7 @@ Ich mage keine Magie!
 - rollen default folder festlegen (Default `/roles` höchste Präzedenz)
 
 
-## Assignment:
+## Assignment 1:
 
 Copy a text file containing the words "I love ansible" to your remote host.
 
@@ -41,9 +41,22 @@ Den ganzen Pfad?? Der wird sich doch ändern :(
 
 
 Option um superuser password auf der Kommandozeile zu verwenden.
+
 `--ask-become-pass`
 
-## Jinja2 Example 
+
+## Assignment 2:
+
+Copy a text file containing the the "I love ansible from <username>" to your remote host. 
+
+### Jinja2 Example 
+
+Print `ansible_fact`
+```yml 
+- name: Print all available facts
+  ansible.builtin.debug:
+    var: ansible_facts
+ ```
 
 What is {{ hallo }}? 
 
